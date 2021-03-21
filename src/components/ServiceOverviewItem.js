@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-const Service = ({ name, img, description, styles }) => {
+const ServiceOverviewItem = ({ name, img, description, styles }) => {
   return (
     <Card
       className={`grow m-3 ${styles ? styles : ""}`}
@@ -20,4 +20,4 @@ const Service = ({ name, img, description, styles }) => {
   );
 };
 
-export default Service;
+export default ServiceOverviewItem;
