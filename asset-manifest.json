@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sanjeevani-clinic/static/css/main.ec028483.chunk.css",
+    "main.js": "/sanjeevani-clinic/static/js/main.dc770e4f.chunk.js",
+    "main.js.map": "/sanjeevani-clinic/static/js/main.dc770e4f.chunk.js.map",
+    "runtime-main.js": "/sanjeevani-clinic/static/js/runtime-main.dd762498.js",
+    "runtime-main.js.map": "/sanjeevani-clinic/static/js/runtime-main.dd762498.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/sanjeevani-clinic/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f16a764a.chunk.js": "/sanjeevani-clinic/static/js/2.f16a764a.chunk.js",
+    "static/js/2.f16a764a.chunk.js.map": "/sanjeevani-clinic/static/js/2.f16a764a.chunk.js.map",
+    "index.html": "/sanjeevani-clinic/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/sanjeevani-clinic/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ec028483.chunk.css.map": "/sanjeevani-clinic/static/css/main.ec028483.chunk.css.map",
+    "static/js/2.f16a764a.chunk.js.LICENSE.txt": "/sanjeevani-clinic/static/js/2.f16a764a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd762498.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f16a764a.chunk.js",
+    "static/css/main.ec028483.chunk.css",
+    "static/js/main.dc770e4f.chunk.js"
+  ]
+}
