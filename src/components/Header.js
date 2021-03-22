@@ -5,15 +5,7 @@ import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 const Header = () => {
   return (
     <header>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        expand="lg"
-        collapseOnSelect
-        style={{
-          height: "70px",
-        }}
-      >
+      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <IndexLinkContainer to="/">
             <Navbar.Brand>Sanjeevani Clinic</Navbar.Brand>
