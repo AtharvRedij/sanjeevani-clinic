@@ -6,6 +6,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import ContactRow from "../components/ContactRow";
 import Message from "./../components/Message";
+import axios from "axios";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -22,14 +23,29 @@ const Contact = () => {
     setError("");
     setSuccess("");
 
-    console.log("submit", name, email, mobileNumber, gender, message);
-
     if (mobileNumber.length !== 10) {
       setError("Invalid Mobile Number");
       return;
     }
 
-    setSuccess("Your query was sent to doctor.");
+    axios
+      .post("https://send.pageclip.co/I5Jy0fRHgsRGWLBsn0ScyqtmZqc8Nlyf", {
+        name,
+        email,
+        mobileNumber,
+        gender,
+        message,
+      })
+      .then(() => {
+        setSuccess("Your query was sent to doctor.");
+      })
+      .catch((error) => {
+        if (error.message === "Network Error") {
+          setSuccess("Your query was sent to doctor.");
+        } else {
+          setError(`Some Error Occurred ${error.message}`);
+        }
+      });
   };
 
   return (
@@ -79,7 +95,7 @@ const Contact = () => {
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridNumber">
-            <Form.Label>Number</Form.Label>
+            <Form.Label>Mobile Number</Form.Label>
             <Form.Control
               type="number"
               placeholder="Enter Mobile Number"
