@@ -10,7 +10,7 @@ const Banner = () => {
     <>
       <Row className="mt-5">
         <Col sm={12} md={5}>
-          <Image src="./img/id.jpg" roundedCircle />
+          <Image src="./img/id.jpg" roundedCircle fluid />
         </Col>
         <Col className="mt-5 text-right">
           <h1>Dr. Sanjeevani Joshi</h1>
