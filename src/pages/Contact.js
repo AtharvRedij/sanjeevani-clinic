@@ -4,9 +4,10 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import axios from "axios";
+import { SocialIcon } from "react-social-icons";
 import ContactRow from "../components/ContactRow";
 import Message from "./../components/Message";
-import axios from "axios";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -67,6 +68,14 @@ const Contact = () => {
             description="Monday - Saturday: 10AM to 5 PM"
           />
         </ListGroup>
+
+        <h2 className="mt-4 ml-1">Follow Us</h2>
+        <div className="w-50 d-flex justify-content-around">
+          <SocialIcon url="https://twitter.com/jaketrent" target="_blank" />
+          <SocialIcon url="https://facebook.com/jaketrent" target="_blank" />
+          <SocialIcon url="https://linkedin.com/jaketrent" target="_blank" />
+          <SocialIcon url="https://youtube.com/jaketrent" target="_blank" />
+        </div>
       </Col>
       <Col xs={12} md={6}>
         <h2>Send us a message</h2>
