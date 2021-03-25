@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Banner = () => {
   return (
@@ -18,12 +19,17 @@ const Banner = () => {
             experience.
           </h4>
           <div className="mt-5 d-flex justify-content-end">
-            <Button size="lg" variant="outline-primary" className="mr-3">
-              Know More
-            </Button>
-            <Button size="lg" variant="outline-primary">
-              Contact Us
-            </Button>
+            <LinkContainer to="/about">
+              <Button size="lg" variant="outline-primary" className="mr-3">
+                Know More
+              </Button>
+            </LinkContainer>
+
+            <LinkContainer to="/contact">
+              <Button size="lg" variant="outline-primary">
+                Contact Us
+              </Button>
+            </LinkContainer>
           </div>
         </Col>
       </Row>
