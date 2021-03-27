@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Testimonies from "./pages/Testimonies";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Container>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/testimonies" component={Testimonies} />
         <Route path="/" component={Home} exact />
       </Container>
     </>

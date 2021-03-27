@@ -21,6 +21,10 @@ const Header = () => {
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
 
+              <LinkContainer to="/testimonies">
+                <Nav.Link>Success Stories</Nav.Link>
+              </LinkContainer>
+
               <LinkContainer to="/contact">
                 <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
