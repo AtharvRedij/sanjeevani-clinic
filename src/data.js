@@ -1,33 +1,54 @@
 export const SERVICES = [
   {
-    name: "Service 1",
+    name: "Personalised Diet",
     img: "../img/services/s.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus pellentesque mi nec cursus. Fusce diam tortor, porttitor sit amet urna eget, hendrerit accumsan mi. Vestibulum magna tortor, blandit in venenatis ac, tincidunt id risus. Quisque in suscipit mauris.",
+    tagline: "A diet designed specifically to suit your…",
+    description: [
+      "Constitution or ‘Prakruti’",
+      "Appetite and digestive power",
+      "Likes, dislikes and preferences",
+      "Nature, type and schedule of work",
+      "Health issues, if any",
+    ],
   },
+
   {
-    name: "Service 2",
+    name: "Weight Management",
     img: "../img/services/s.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus pellentesque mi nec cursus. Fusce diam tortor, porttitor sit amet urna eget, hendrerit accumsan mi. Vestibulum magna tortor, blandit in venenatis ac, tincidunt id risus. Quisque in suscipit mauris.",
+    tagline: null,
+    description: [
+      "Getting long term and sustainable solutions",
+      "Eating smartly but not less",
+      "Learning basics to be a smart eater",
+      "Planning own diet",
+      "Knowing variety of options to choose from",
+    ],
   },
+
   {
-    name: "Service 3",
+    name: "Recipes",
     img: "../img/services/s.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus pellentesque mi nec cursus. Fusce diam tortor, porttitor sit amet urna eget, hendrerit accumsan mi. Vestibulum magna tortor, blandit in venenatis ac, tincidunt id risus. Quisque in suscipit mauris.",
+    tagline: "Healthy  भी और tasty भी …",
+    description: [
+      "Preserving taste",
+      "Know what to eat and what not",
+      "Variety of options for each meal time",
+      "Easily available ingredients",
+      "Simple, convenient, time saving steps",
+    ],
   },
+
   {
-    name: "Service 4",
+    name: "Therapeutic Diet",
     img: "../img/services/s.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus pellentesque mi nec cursus. Fusce diam tortor, porttitor sit amet urna eget, hendrerit accumsan mi. Vestibulum magna tortor, blandit in venenatis ac, tincidunt id risus. Quisque in suscipit mauris.",
-  },
-  {
-    name: "Service 5",
-    img: "../img/services/s.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus pellentesque mi nec cursus. Fusce diam tortor, porttitor sit amet urna eget, hendrerit accumsan mi. Vestibulum magna tortor, blandit in venenatis ac, tincidunt id risus. Quisque in suscipit mauris.",
+    tagline: "Yes you can…",
+    description: [
+      "Tackle your disease symptoms with apt diet",
+      "Learn to choose and plan smartly",
+      "Cook simple disease specific recipes",
+      "Use Diet As Drugs (DADs)",
+      "Boost energy level to feel the difference",
+    ],
   },
 ];
 
@@ -89,4 +110,10 @@ export const GALLERY_DATA = [
     title: "IMG Five",
     img: "img/gallery/img5.jpg",
   },
+];
+
+export const ABOUT_CONTENT = [
+  "‘Swasthyda’ (The health provider) is an organisation initiated and run by a multidisciplinary medical professional, Dr. Sanjeevani Joshi. The organisation aims for using apt diet for managing diseases, maintaining health and achieving utmost longevity. We also aim for self-sufficiency and sustainable solutions towards diet and diseases.",
+  "We follow an excellent blend of traditional and modern dietetic principals. Here, we help you to learn your body constitution (Prakruti), suitability of various foods and plan your own diet to suit your profession and life style.",
+  "So, join us to, Choose smartly, plan appropriately, eat intelligently and to be your dietician. ",
 ];
